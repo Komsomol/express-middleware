@@ -1,0 +1,23 @@
+{
+  "name": "restapi-forms",
+  "version": "1.0.0",
+  "description": "rest api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "using",
+    "express"
+  ],
+  "author": "farhad agzamov",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  }
+}

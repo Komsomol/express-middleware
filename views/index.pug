@@ -1,0 +1,8 @@
+html
+    h1=status
+    a(href='/video/M9RcdLCJkw4') Sample
+    form(action='/video' method="post")
+        .form-group
+            label(for="video") Video
+            input.form-control(type="text", name="video", id="video", value=video)
+        button.btn.btn-success(type="submit") Save

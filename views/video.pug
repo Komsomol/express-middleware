@@ -1,0 +1,13 @@
+html
+    h1=Video
+    form(action='/video' method="post")
+        .form-group
+            label(for="video") Video
+            input.form-control(type="text", name="video", id="video",  value=video)
+        button.btn.btn-success(type="submit") Save
+
+    div
+        if(video)
+            iframe(type='text/html' width='640' height='390'
+    src='http://www.youtube.com/embed/'+video+'?autoplay=1&origin=http://example.com'
+    frameborder='0')
